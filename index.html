@@ -4,19 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahmed Gamal Shaltut</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap');
+
+    body {
+        font-family: 'JetBrains Mono', monospace;
+        max-width: 720px;
+        margin: 3rem auto;
+        padding: 0 1rem;
+        line-height: 1.6;
+        color: #111;
+    }
+
+    h1, h2 {
+        font-weight: 600;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+
+    a {
+        color: inherit;
+    }
+
+    /* New styles for the header layout */
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .header-text {
+        flex: 1;
+    }
+
+    .profile-pic {
+        width: 160px; /* image size */
+        height: auto;
+        border-radius: 4px; /* rounded corners */
+        object-fit: cover;
+        margin-right: 6rem;
+    }
+</style>
 </head>
 
 <body>
 
     <header>
-        <h1>Ahmed Gamal Shaltut</h1>
 
-        <p>
-            <strong>PhD Student</strong><br>
-            Working with <a href="https://sites.google.com/view/andrewdlewis/">Professor Andrew Lewis</a><br>
-            Department of Mathematics and Statistics<br>
-            Queen's University at Kingston
-        </p>
+
+
+
+
+
+        <div class="header-content">
+            <div class="header-text">
+            <h1>Ahmed Gamal Shaltut</h1>
+                ahmed dot shaltut at queensu dot ca
+
+                <p>
+                    <strong>PhD Student</strong><br>
+                    Working with <a href="https://sites.google.com/view/andrewdlewis/">Professor Andrew Lewis</a><br>
+                    Department of Mathematics and Statistics<br>
+                    Queen's University at Kingston
+                </p>
+            </div>
+
+            <img src="photowebsite.png" alt="Ahmed Gamal Shaltut" class="profile-pic">
+        </div>
     </header>
 
     <section>
@@ -33,18 +97,20 @@
         </ol>
     </section>
 
- <section>
-    <h2>Publications</h2>
+    <section>
+        <h2>Publications</h2>
 
-    <ol>
-        <li>
+        <ol>
+            <li> Inverse limits of locally convex Lie groupoids </li>
+            <li> A category of locally convex Lie algebroids </li>
+            <li>
             (with Andrew D. Lewis) Invariance of subbundles and nonholonomic trajectories,
             <em>Geometric Mechanics</em>, 2(4):445&ndash;476, 2025.
             [<a href="https://doi.org/10.1142/S2972458925400088">journal</a>]
             [<a href="https://arxiv.org/abs/2504.19430">arXiv</a>]
         </li>
-    </ol>
-</section>
+        </ol>
+    </section>
 
     <section>
         <h2>Teaching</h2>
@@ -70,14 +136,6 @@
                 (Winter 2024)
             </li>
         </ul>
-    </section>
-
-    <section>
-        <h2>Contact</h2>
-
-        <p>
-            Email: ahmed (dot) shaltut (at) queensu.ca
-        </p>
     </section>
 
 </body>
